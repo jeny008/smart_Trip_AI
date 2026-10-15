@@ -3,6 +3,12 @@ import re
 from datetime import date, datetime, time
 import streamlit as st
 from dotenv import load_dotenv
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 from src.comparison import compare_options
 from src.conversation import extract_fields, missing_question, build_request
 from src.data import get_demo_options
