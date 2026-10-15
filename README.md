@@ -7,6 +7,10 @@
 - Honest source labels: live timetable data is distinct from fictional demo data.
 - Budget comparison works for options with actual prices. RailRadar's timetable endpoint does not supply fares or seat availability, so live options show fare unavailable rather than made-up prices.
 - No booking is performed.
+  
+- ## Live Demo
+**Try SmartTrip AI:** https://smarttripai-dmdtoxcmyctzfwopjqcp7t.streamlit.app/
+**GitHub Repository:** https://github.com/jeny008/smart_Trip_AI
 
 ## Setup
 Python 3.10+ recommended.
