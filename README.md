@@ -10,6 +10,7 @@
   
 - ## Live Demo
 **Try SmartTrip AI:** https://smarttripai-dmdtoxcmyctzfwopjqcp7t.streamlit.app/
+
 **GitHub Repository:** https://github.com/jeny008/smart_Trip_AI
 
 ## Setup
